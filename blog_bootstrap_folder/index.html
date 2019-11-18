@@ -19,7 +19,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="css/clean-blog.css" rel="stylesheet">
 
 </head>
 
@@ -38,8 +38,13 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Blog</a>
+          <li class="dropdown">
+            <button class="dropbtn">Blog</button>
+            <div class="dropdown-content">
+              <a href="#">Fitness</a>
+              <a href="#">Travel</a>
+              <a href="#">Beauty</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="post.html">Gallery</a>
@@ -53,7 +58,7 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/dina_pic.jpg')">
+  <header class="masthead" style="background-image: url('pond.jpg');">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -66,6 +71,23 @@
       </div>
     </div>
   </header>
+
+    <!-- Picture real -->
+    <div id="container" class="container">
+        <!-- Each image is 350px by 233px -->
+        <div class="photobanner">
+        	<img class="first" src="dina_pic.jpg" alt="" />
+        	<img src="handstand.jpg" alt="" />
+        	<img src="dina_headshot.jpg" alt="" />
+          <img src="skyline.jpg" alt="" />
+          <img src="CUHK.jpg" alt="" />
+          <img src="wheel.jpg" alt="" />
+          <img src="dina_pic.jpg" alt="" />
+          <img src="handstand.jpg" alt="" />
+          <img src="dina_headshot.jpg" alt="" />
+          <img src="skyline.jpg" alt="" />
+        </div>
+    </div>
 
   <!-- Creators -->
   <div id="creators" class="container">
