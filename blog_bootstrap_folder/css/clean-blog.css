@@ -316,6 +316,16 @@ img::-moz-selection {
   }
 }
 
+.col-sm-4{
+  background-color: #ffe8fe;
+  border-color: #ffe8fe;
+  padding-top: 25px;
+}
+
+.col-sm-4 p {
+  color: "black"
+}
+
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
