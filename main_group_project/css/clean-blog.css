@@ -317,10 +317,28 @@ img::-moz-selection {
 }
 
 .col-sm-4{
-  background-color: #ffe8fe;
-  border-color: #ffe8fe;
+  background-color: #DFFBFF;
+  border-color: #DFFBFF;
   padding-top: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.blockquote-footer{
+  padding-bottom: 0px;
+}
+
+.text-dark{
+  font-weight: 700;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.creatorheader{
+  background-color: #DFFBFF;
+  border-color: #DFFBFF;
+  text-align: center;
+  width: auto;
 }
 
 header.masthead {
@@ -403,7 +421,7 @@ header.masthead .post-heading .subheading {
 }
 
 header.masthead .post-heading .meta {
-  font-size: 20px;
+  font-size: 50px;
   font-weight: 300;
   font-style: italic;
   font-family: 'Lora', 'Times New Roman', serif;
