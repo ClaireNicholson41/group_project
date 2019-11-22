@@ -319,11 +319,8 @@ img::-moz-selection {
 .col-sm-4{
   background-color: #ffe8fe;
   border-color: #ffe8fe;
-  padding-top: 25px;
-}
-
-.col-sm-4 p {
-  color: "black"
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 header.masthead {
