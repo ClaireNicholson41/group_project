@@ -7,7 +7,8 @@
 body {
   font-size: 20px;
   color: #212529;
-  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  background-color: #CBF2FF;
 }
 
 p {
@@ -64,14 +65,14 @@ blockquote {
  width: 1500px;
  overflow: hidden;
  margin: 50px auto;
- background: white;
+ background: #CBF2FF;
 }
 
 /*photobanner*/
 .photobanner {
  height: 233px;
  width: 3500px;
- margin-bottom: 80px;
+ margin-bottom: 0px;
 }
 
 /*keyframe animations*/
@@ -317,12 +318,33 @@ img::-moz-selection {
 }
 
 .col-sm-4{
-  background-color: #DFFBFF;
+  background-color: white;
   border-color: #DFFBFF;
   padding-top: 20px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  border-bottom: 0px;
 }
+
+/*  hr format */
+
+hr.type_1 {
+  height: 30px;
+  border-style: solid;
+  border-color: #FFEAFF;
+  border-width: 5px 0 0 0;
+  border-radius: 50px;
+  }
+  hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: #FFEAFF;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  }
 
 .blockquote-footer{
   padding-bottom: 0px;
@@ -335,10 +357,9 @@ img::-moz-selection {
 }
 
 .creatorheader{
-  background-color: #DFFBFF;
-  border-color: #DFFBFF;
-  text-align: center;
+  text-align: right;
   width: auto;
+  color: #133271;
 }
 
 header.masthead {
