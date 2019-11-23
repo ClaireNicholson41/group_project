@@ -26,9 +26,12 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-image: url('navbackground.png');" >
     <div class="container">
-      <a class="navbar-brand" href="index.html">LOGO</a>
+      <a href="index.html">
+         <img alt="Logo" src="logo.png"
+         width="120" height="120">
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -65,7 +68,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <h1>Bit of Everything</h1>
-            <span class="subheading">A guide to a bit of everything</span>
+            <span class="subheading">A perfect guide to a bit of everything...</span>
           </div>
         </div>
       </div>
@@ -76,26 +79,28 @@
     <div id="container" class="container">
         <!-- Each image is 350px by 233px -->
         <div class="photobanner">
-        	<img class="first" src="dina_pic.jpg" alt="" />
-        	<img src="handstand.jpg" alt="" />
-        	<img src="dina_headshot.jpg" alt="" />
-          <img src="skyline.jpg" alt="" />
-          <img src="CUHK.jpg" alt="" />
-          <img src="wheel.jpg" alt="" />
-          <img src="dina_pic.jpg" alt="" />
-          <img src="handstand.jpg" alt="" />
-          <img src="dina_headshot.jpg" alt="" />
-          <img src="skyline.jpg" alt="" />
+        	<img class="first" src="dina_pic.jpg" width = "350px" alt="" />
+        	<img src="handstand.jpg" width = "350px" alt="" />
+        	<img src="dinas_headshot.jpg" width = "350px" alt="" />
+          <img src="skyline.jpg" width = "350px" alt="" />
+          <img src="CUHK.jpg" width = "350px" alt="" />
+          <img src="wheel.jpg" width = "350px" alt="" />
+          <img src="dina_pic.jpg" width = "350px" alt="" />
+          <img src="handstand.jpg" width = "350px" alt="" />
+          <img src="dinas_headshot.jpg" width = "350px" alt="" />
+          <img src="skyline.jpg" width = "350px" alt="" />
         </div>
     </div>
 
+    <hr class="type_1">
+
   <!-- Creators -->
   <div id="creators" class="container">
-    <h2><small>The Creators</small><br />Who are we?</h2>
+    <h2 class = creatorheader >Who are the creators?</h2>
     <div class="row">
       <div class="col-sm-4">
-        <img src="dina_headshot.jpg" />
-        <blockquote class="blockquote">
+        <img src="dinas_headshot.jpg" width = "350px"/>
+        <blockquote class="text-dark">
           <p>
             I'm an environmental biology student and gymnast. I can help you with science, fitness and travel!
           </p>
@@ -106,7 +111,7 @@
       </div>
       <div class="col-sm-4">
         <img src="kez_pic.jpg" />
-        <blockquote class="blockquote">
+        <blockquote class="text-dark">
           <p>
             I'm a maths and philosophy student. I love trampolining and travelling!
           </p>
@@ -117,9 +122,9 @@
       </div>
       <div class="col-sm-4">
         <img src="claire_pic.jpg" />
-        <blockquote class="blockquote">
+        <blockquote class="text-dark">
         <p>
-          Hey, I'm Claire!
+          I'm an english literature student and gamer. I can help you with books, blogs and gaming!
         </p>
         <footer class="blockquote-footer">
           Claire Nicholson
@@ -128,6 +133,11 @@
       </div>
     </div>
   </div>
+
+<!-- Page content -->
+<div class="main">
+  ...
+</div>
 
   <!-- Main Content -->
   <div class="container">
@@ -141,10 +151,11 @@
             <h3 class="post-subtitle">
               Find out how to get fit!
             </h3>
+            <img src="handstand.jpeg"/>
           </a>
           <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
+            <a href="#">Dina</a>
+            on November, 2019</p>
         </div>
         <hr>
         <div class="post-preview">
@@ -154,8 +165,8 @@
             </h2>
           </a>
           <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
+            <a href="#">Claire</a>
+            on November, 2019</p>
         </div>
         <hr>
         <div class="post-preview">
@@ -165,17 +176,9 @@
             </h2>
           </a>
           <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
+            <a href="#">Kez</a>
+            on November, 2019</p>
         </div>
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <hr>
 
