@@ -340,6 +340,17 @@ img::-moz-selection {
   border-bottom: 0px;
 }
 
+.col-ft-4{
+  background-color: transparent;
+  border-color: #DFFBFF;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
 #creators{
   width: auto;
 }
@@ -383,6 +394,24 @@ hr.type_1 {
   border-width: 0 0 1px 0;
   border-radius: 20px;
   }
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8DD0FF;
+  opacity: 0.9;
+  color: white;
+  padding: 20px;
+  padding-bottom: 5px;
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+}
 
 .blockquote-footer{
   padding-bottom: 0px;
