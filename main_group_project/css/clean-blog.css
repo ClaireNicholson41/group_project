@@ -62,10 +62,17 @@ blockquote {
 }
 
 #container {
- width: 1500px;
+ width: auto;
  overflow: hidden;
  margin: 50px auto;
  background: #CBF2FF;
+}
+
+.video {
+ width: auto;
+ overflow: hidden;
+ background: transparent;
+ margin: 20px;
 }
 
 /*photobanner*/
@@ -322,6 +329,20 @@ img::-moz-selection {
   border-color: #DFFBFF;
   padding-top: 20px;
   padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+#creators{
+  width: auto;
+}
+
+.col-vd-4{
+  border-color: #DFFBFF;
+  padding-top: 20px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
   border-bottom: 0px;
 }
@@ -392,7 +413,7 @@ header.masthead .site-heading {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 200px 0;
+    padding: 300px 0;
   }
 }
 
