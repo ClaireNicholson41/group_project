@@ -21,12 +21,17 @@ p a {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   font-weight: 800;
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif
+}
+
+h2{
+  font-weight: 400;
+  font-size: 60px;
   font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif
 }
 
@@ -339,6 +344,18 @@ img::-moz-selection {
   width: auto;
 }
 
+#KEZ{
+  background-color: #FFD6C3;
+}
+
+#DINA{
+  background-color: #D2F9FF
+}
+
+#CLAIRE{
+  background-color: #83CCFF
+}
+
 .col-vd-4{
   border-color: #DFFBFF;
   padding-top: 20px;
@@ -378,7 +395,7 @@ hr.type_1 {
 }
 
 .creatorheader{
-  text-align: right;
+  text-align: center;
   width: auto;
   color: #133271;
 }
