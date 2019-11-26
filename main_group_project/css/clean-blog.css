@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
 
+/*------------general elements----------------*/
 body {
   font-size: 20px;
   color: #212529;
@@ -73,6 +74,104 @@ blockquote {
  background: #CBF2FF;
 }
 
+.col-sm-4{
+  background-color: white;
+  border-color: #DFFBFF;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.col-ft-4{
+  background-color: transparent;
+  border-color: #DFFBFF;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+/*creator colours*/
+#creators{
+  width: auto;
+}
+
+#KEZ{
+  background-color: #FFD6C3;
+}
+
+#DINA{
+  background-color: #C4F4F7
+}
+
+#CLAIRE{
+  background-color: #83CCFF
+}
+
+.col-vd-4{
+  border-color: #DFFBFF;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+/*  hr format */
+
+hr.type_1 {
+  height: 30px;
+  border-style: solid;
+  border-color: #FFEAFF;
+  border-width: 5px 0 0 0;
+  border-radius: 50px;
+  }
+  hr.style-three:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: #FFEAFF;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  }
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8DD0FF;
+  opacity: 0.9;
+  color: white;
+  padding: 10px;
+  padding-bottom: 5px;
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  text-align: center;
+  line-height: 10px;
+}
+
+.blockquote-footer{
+  padding-bottom: 0px;
+}
+
+.text-dark{
+  font-weight: 700;
+  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif
+  text-align: center;
+}
+
+/*------------videos----------------*/
 .video {
  width: auto;
  overflow: hidden;
@@ -80,7 +179,7 @@ blockquote {
  margin: 20px;
 }
 
-/*photobanner*/
+/*------------photobanner------------*/
 .photobanner {
  height: 233px;
  width: 3500px;
@@ -200,6 +299,7 @@ img::-moz-selection {
   background: transparent;
 }
 
+/*------------navigation bar----------------*/
 #mainNav {
   position: relative;
   border-bottom: 1px solid #e9ecef;
@@ -326,100 +426,7 @@ img::-moz-selection {
 
 }
 
-.col-sm-4{
-  background-color: white;
-  border-color: #DFFBFF;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 0px;
-  border-bottom: 0px;
-}
-
-.col-ft-4{
-  background-color: transparent;
-  border-color: #DFFBFF;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 0px;
-  border-bottom: 0px;
-}
-
-#creators{
-  width: auto;
-}
-
-#KEZ{
-  background-color: #FFD6C3;
-}
-
-#DINA{
-  background-color: #D2F9FF
-}
-
-#CLAIRE{
-  background-color: #83CCFF
-}
-
-.col-vd-4{
-  border-color: #DFFBFF;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  border-bottom: 0px;
-}
-
-/*  hr format */
-
-hr.type_1 {
-  height: 30px;
-  border-style: solid;
-  border-color: #FFEAFF;
-  border-width: 5px 0 0 0;
-  border-radius: 50px;
-  }
-  hr.style-three:before {
-  display: block;
-  content: "";
-  height: 30px;
-  margin-top: -31px;
-  border-style: #FFEAFF;
-  border-color: black;
-  border-width: 0 0 1px 0;
-  border-radius: 20px;
-  }
-
-  /* Container holding the image and the text */
-.container {
-  position: relative;
-}
-
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: #8DD0FF;
-  opacity: 0.9;
-  color: white;
-  padding: 20px;
-  padding-bottom: 5px;
-  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-}
-
-.blockquote-footer{
-  padding-bottom: 0px;
-}
-
-.text-dark{
-  font-weight: 700;
-  font-family: "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif
-  text-align: center;
-}
-
+/*------------top header------------*/
 .creatorheader{
   text-align: center;
   width: auto;
@@ -525,6 +532,7 @@ header.masthead .post-heading .meta a {
   }
 }
 
+/*-----------Blog element---------*/
 .post-preview > a {
   color: #212529;
 }
@@ -627,21 +635,7 @@ form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #dee2e6;
 }
 
-footer {
-  padding: 50px 0 65px;
-}
-
-footer .list-inline {
-  margin: 0;
-  padding: 0;
-}
-
-footer .copyright {
-  font-size: 14px;
-  margin-bottom: 0;
-  text-align: center;
-}
-
+/*------------buttons------------*/
 .btn {
   font-size: 14px;
   font-weight: 800;
@@ -666,4 +660,20 @@ footer .copyright {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
+}
+
+/*------------footer------------*/
+footer {
+  padding: 50px 0 65px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
 }
